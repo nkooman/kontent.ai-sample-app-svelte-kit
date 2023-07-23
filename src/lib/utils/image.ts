@@ -1,0 +1,1 @@
+export const toBackgroundImage = (url: string | undefined) => url ? `url('${url}')` : '';
